@@ -31,7 +31,7 @@ app.use(expressWinston.errorLogger({
 }));
 
 // listen for requests
-const listener = app.listen(process.env.PORT, function () {
+const listener = app.listen(process.env.PORT || 8080, function () {
   console.info(`Node Version: ${process.version}`);
   console.log('Listening on port: ' + listener.address().port);
 });
