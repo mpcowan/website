@@ -1,4 +1,6 @@
 body {
+  background-image: url("/images/piney-lake.jpg");
+  background-size: cover;
   font-family: 'Lato', Helvetica, sans-serif;
   margin: 0;
 }
@@ -11,8 +13,13 @@ a {
   color: white;
 }
 
+.card {
+  background: rgba(0,0,0,0.6);
+  padding: 36px;
+  border-radius: 6px;
+}
+
 .header {
-  background: #094C72;
   color: white;
   text-align: center;
   height: 100%;
