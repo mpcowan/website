@@ -17,6 +17,9 @@ app.use(expressWinston.logger({
   ]
 }));
 
+// we want the images cached for essentially forever
+app.use('/images', express.static('public/images', { maxage: '365d' }));
+
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
 
