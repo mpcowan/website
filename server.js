@@ -14,7 +14,9 @@ app.use(expressWinston.logger({
       json: true,
       colorize: true
     })
-  ]
+  ],
+  meta: false,
+  msg: "{{res.statusCode}} {{req.method}} {{res.responseTime}}ms {{req.url}}"
 }));
 
 // we want the images cached for essentially forever
