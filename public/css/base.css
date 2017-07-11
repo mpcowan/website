@@ -11,6 +11,10 @@ h1 {
 
 a {
   color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #0079BF;
 }
 
 .card {
@@ -37,4 +41,8 @@ a {
 
 .service-logo {
   padding-right: 6px;
+}
+
+.fa {
+  margin: 0 4px;
 }

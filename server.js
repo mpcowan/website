@@ -1,6 +1,9 @@
 const compression = require('compression');
 const express = require('express');
 const expressWinston = require('express-winston');
+const fs = require('fs');
+const marked = require('marked');
+const path = require('path');
 const winston = require('winston'); // for transports.Console
 const app = express();
 
@@ -34,6 +37,33 @@ app.use(expressWinston.errorLogger({
     })
   ]
 }));
+
+// rendered resume
+app.get('/resume', (req, res) => {
+  fs.readFile(path.join(__dirname, 'src/resume.md'), 'utf8', (err, data) => {
+    if (err) {
+      console.error(err.message);
+      return res.sendStatus(500);
+    }
+    marked(data, (error, content) => {
+      if (error) {
+        console.error(error.message);
+        return res.sendStatus(500);
+      }
+      fs.readFile(path.join(__dirname, 'src/resume.html'), 'utf8', (err, html) => {
+        if (err) {
+          console.error(err.message);
+          return res.sendStatus(500);
+        }
+        return res.send(html.replace('{{RESUME_CONTENT}}', content));
+      })
+    })
+  });
+});
+
+app.get('/github-markdown.css', (req, res) => {
+  return res.sendFile(path.join(__dirname, 'node_modules/github-markdown-css/github-markdown.css'));
+});
 
 // listen for requests
 const listener = app.listen(process.env.PORT || 8080, function () {
