@@ -56,4 +56,4 @@
 
 ## Hobbies
 
-- Woodworking, hiking, photography
+- 🗜️ Woodworking, 🏕️ hiking, 📷 photography
