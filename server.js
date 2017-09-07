@@ -72,6 +72,11 @@ app.get('/github-markdown.css', (req, res) => {
   return res.sendFile(path.join(__dirname, 'node_modules/github-markdown-css/github-markdown.css'));
 });
 
+// temporary to test sentry
+app.get('/error', (req, res) => {
+  throw new Error('Sentry Testing...');
+});
+
 // listen for requests
 const listener = app.listen(process.env.PORT || 8080, function () {
   console.info(`Node Version: ${process.version}`);
