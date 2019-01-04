@@ -4,13 +4,12 @@ const expressWinston = require('express-winston');
 const fs = require('fs');
 const marked = require('marked');
 const path = require('path');
-const Raven = require('raven');
+const Sentry = require('@sentry/node');
 const winston = require('winston'); // for transports.Console
 const app = express();
 
 // Must configure Raven before doing anything else with it
-Raven.config(process.env.SENTRY_DSN).install();
-app.use(Raven.requestHandler());
+Sentry.init({ dsn: process.env.SENTRY_DSN });
 
 // compress our client side content before sending it over the wire
 app.use(compression());
@@ -32,18 +31,6 @@ app.use('/images', express.static('public/images', { maxage: '365d' }));
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
-
-// error logging
-// The error handler must be before any other error middleware
-app.use(Raven.errorHandler());
-app.use(expressWinston.errorLogger({
-  transports: [
-    new winston.transports.Console({
-      json: true,
-      colorize: true
-    })
-  ]
-}));
 
 // rendered resume
 app.get('/resume', (req, res) => {
