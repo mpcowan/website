@@ -17,9 +17,6 @@ app.use(Sentry.Handlers.requestHandler());
 // compress our client side content before sending it over the wire
 app.use(compression());
 
-// The error handler must be before any other error middleware
-app.use(Sentry.Handlers.errorHandler());
-
 // request logging
 app.use(expressWinston.logger({
   transports: [
@@ -68,6 +65,17 @@ app.get('/github-markdown.css', (req, res) => {
 // temporary to test sentry
 app.get('/error', (req, res) => {
   throw new Error('Sentry Testing...');
+});
+
+// The error handler must be before any other error middleware
+app.use(Sentry.Handlers.errorHandler());
+
+// Optional fallthrough error handler
+app.use(function onError(err, req, res, next) {
+  // The error id is attached to `res.sentry` to be returned
+  // and optionally displayed to the user for support.
+  res.statusCode = 500;
+  res.end(res.sentry + '\n');
 });
 
 // listen for requests
