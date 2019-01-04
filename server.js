@@ -11,8 +11,14 @@ const app = express();
 // Must configure Raven before doing anything else with it
 Sentry.init({ dsn: process.env.SENTRY_DSN });
 
+// The request handler must be the first middleware on the app
+app.use(Sentry.Handlers.requestHandler());
+
 // compress our client side content before sending it over the wire
 app.use(compression());
+
+// The error handler must be before any other error middleware
+app.use(Sentry.Handlers.errorHandler());
 
 // request logging
 app.use(expressWinston.logger({
@@ -61,15 +67,7 @@ app.get('/github-markdown.css', (req, res) => {
 
 // temporary to test sentry
 app.get('/error', (req, res) => {
-  try {
-    throw new Error('Sentry Testing...');
-  } catch (e) {
-    Sentry.captureException(e);
-  }
-});
-
-app.get('/sentry', (req, res) => {
-  Sentry.captureMessage('Hello Sentry 👋');
+  throw new Error('Sentry Testing...');
 });
 
 // listen for requests
