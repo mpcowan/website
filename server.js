@@ -61,7 +61,15 @@ app.get('/github-markdown.css', (req, res) => {
 
 // temporary to test sentry
 app.get('/error', (req, res) => {
-  throw new Error('Sentry Testing...');
+  try {
+    throw new Error('Sentry Testing...');
+  } catch (e) {
+    Sentry.captureException(e);
+  }
+});
+
+app.get('/sentry', (req, res) => {
+  Sentry.captureMessage('Hello Sentry 👋');
 });
 
 // listen for requests
