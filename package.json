@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.0.0",
   "engines": {
-    "node": "12.x"
+    "node": "10.x"
   },
   "scripts": {
     "build": "node renderResume.js && parcel build src/index.html",
