@@ -46,3 +46,22 @@ a:hover {
 .fa {
   margin: 0 4px;
 }
+
+@media only screen and (max-width: 440px), (max-height: 400px) {
+  h1 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .card {
+    padding: 24px 12px;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  .profile-img {
+    height: 128px;
+    width: 128px;
+  }
+}
