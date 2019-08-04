@@ -1,0 +1,19 @@
+body {
+  background: #F4F5F7;
+}
+
+.markdown-body {
+  background: white;
+  box-shadow: 0px 2px 8px 0px #797979;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 980px;
+  min-width: 200px;
+  padding: 45px;
+}
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
