@@ -8,8 +8,10 @@
 - Created numerous Power-Ups, such as Salesforce, Evernote, Box, for the launch of Business Class 3.0
 - Created the Custom Fields & Card Repeater Power-Ups in addition to helping third parties build and launch Power-Ups on Trello's Platform
 - Responsible for maintaining and improving Trello's Power-Up interface, in addition to all first-party Power-Ups
-- Wrote and maintain Trello's [Slack integration](https://slack.com/apps/A074YH40Z-trello), and [Slack Power-Up](https://info.trello.com/power-ups/slack). The top Slack app in the *Productivity* and *Project Management* categories
-- Hold semi-weekly office hours for developers on Trello's platform to provide technical assistance and guidance
+- Wrote and maintained Trello's [Slack integration](https://slack.com/apps/A074YH40Z-trello), and [Slack Power-Up](https://info.trello.com/power-ups/slack)
+- Created an [embeddable Trello card](https://developers.trello.com/docs/cards), used on Dropbox Paper, Confluence, Zendesk, and across the web
+- Produced instructional YouTube [videos](https://www.youtube.com/channel/UCXOGrsPzCmYJIpGUytP5ntw/videos)
+- Wrote the [documentation](https://developers.trello.com/reference#power-ups-intro) for Trello Power-Ups
 
 ### Program Manager II
 **Microsoft - August 2013 to June 2015**
