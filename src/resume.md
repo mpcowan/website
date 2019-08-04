@@ -2,16 +2,22 @@
 
 ## Employment
 
+### Principal Engineer, Trello
+**Atlassian - February 2017 to Present**
+
+- Wrote the [documentation](https://developers.trello.com/reference#power-ups-intro) for Trello Power-Ups
+- Re-architected Trello's [custom fields](https://blog.trello.com/trello-custom-fields-with-mobile-more-fields-api0) into the core API and migrated millions of custom fields records to new schemas and collections without downtime
+- Created an [embeddable Trello card](https://developers.trello.com/docs/cards), used on Dropbox Paper, Confluence, Zendesk, and across the web
+- Produced instructional YouTube [videos](https://www.youtube.com/channel/UCXOGrsPzCmYJIpGUytP5ntw/videos)
+- Responsible for maintaining and improving Trello's Power-Up interface, in addition to all first-party Power-Ups
+
 ### Member of Technical Staff
-**Trello - July 2015 to Present**
+**Trello - July 2015 to February 2017**
 
 - Created numerous Power-Ups, such as Salesforce, Evernote, Box, for the launch of Business Class 3.0
 - Created the Custom Fields & Card Repeater Power-Ups in addition to helping third parties build and launch Power-Ups on Trello's Platform
 - Responsible for maintaining and improving Trello's Power-Up interface, in addition to all first-party Power-Ups
 - Wrote and maintained Trello's [Slack integration](https://slack.com/apps/A074YH40Z-trello), and [Slack Power-Up](https://info.trello.com/power-ups/slack)
-- Created an [embeddable Trello card](https://developers.trello.com/docs/cards), used on Dropbox Paper, Confluence, Zendesk, and across the web
-- Produced instructional YouTube [videos](https://www.youtube.com/channel/UCXOGrsPzCmYJIpGUytP5ntw/videos)
-- Wrote the [documentation](https://developers.trello.com/reference#power-ups-intro) for Trello Power-Ups
 
 ### Program Manager II
 **Microsoft - August 2013 to June 2015**
