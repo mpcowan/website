@@ -5,7 +5,7 @@
 
   [headers.values]
     Referrer-Policy = "strict-origin"
-    Strict-Transport-Security = "max-age=2592000; includeSubDomains"
+    Strict-Transport-Security = "max-age=31557600; includeSubDomains"
     X-Content-Type = "nosniff"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "deny"
@@ -13,7 +13,10 @@
     # Multi-key header rules are expressed with multi-line strings.
     Content-Security-Policy = '''
     default-src 'none';
+    base-uri 'none';
     font-src 'self';
+    form-action 'none';
+    frame-ancestors 'none';
     img-src 'self';
-    style-src 'self' 'unsafe-inline';
+    style-src 'self';
     '''

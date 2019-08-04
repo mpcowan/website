@@ -23,6 +23,11 @@ a:hover {
   color: #0079BF;
 }
 
+.flex-centered {
+  display:flex;
+  justify-content:center;
+}
+
 .card {
   background: rgba(0,0,0,0.6);
   padding: 36px;
