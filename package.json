@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.0.0",
   "engines": {
-    "node": "12.x"
+    "node": "13.x"
   },
   "scripts": {
     "build": "node renderResume.js && parcel build src/index.html",
@@ -12,8 +12,8 @@
     "github-markdown-css": "^3.0.1"
   },
   "devDependencies": {
-    "marked": "^0.7.0",
-    "parcel-bundler": "^1.12.3",
+    "marked": "^0.8.0",
+    "parcel-bundler": "^1.12.4",
     "parcel-plugin-interpolate-env": "^0.0.1"
   }
 }
