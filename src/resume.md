@@ -5,6 +5,8 @@
 ### Principal Engineer, Trello
 **Atlassian - February 2017 to Present**
 
+- Performed technical due diligence for [acquisition of Butler](https://blog.trello.com/trello-acquires-butler) as well as integration work
+- Shipped an [experimental new Trello feature](https://trello.com/power-ups/6048e897c73d032a983e2a7c/dashcards) as a Power-Up as part of Atlassian's "New Products Framework"
 - Wrote the [documentation](https://developers.trello.com/reference#power-ups-intro) for Trello Power-Ups
 - Re-architected Trello's [custom fields](https://blog.trello.com/trello-custom-fields-with-mobile-more-fields-api0) into the core API and migrated millions of custom fields records to new schemas and collections without downtime
 - Created an [embeddable Trello card](https://developers.trello.com/docs/cards), used on Dropbox Paper, Confluence, Zendesk, and across the web
