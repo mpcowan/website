@@ -41,6 +41,7 @@ jspm_packages
 
 # Parcel cache dir
 .cache
+.parcel-cache
 
 # Parcel build dir
 dist
