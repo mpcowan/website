@@ -12,17 +12,17 @@
 
 **Atlassian - June 2022 to April 2023**
 
-- As Trello's first group level architect I worked with engineering management to define the role
-- Worked across numerous teams to help get Trello integrated into the new Atlassian Together subscription bundle
+- As Trello's first group level architect I worked with engineering leadership to define the role
+- Worked across a wide array of teams to get Trello integrated into the new Atlassian Together subscription bundle
 
 ### Principal Engineer, Trello
 
 **Atlassian - February 2017 to June 2022**
 
 - Performed technical due diligence for [acquisition of Butler](https://blog.trello.com/trello-acquires-butler) as well as integration work
-- Shipped an [experimental new Trello feature](https://trello.com/power-ups/6048e897c73d032a983e2a7c/dashcards) as a Power-Up as part of Atlassian's "New Products Framework"
+- Shipped an [experimental new Trello feature](https://trello.com/power-ups/6048e897c73d032a983e2a7c/dashcards) as a Power-Up as part of Atlassian's "New Products Framework" / [Point A](https://www.atlassian.com/point-a)
 - Wrote the [documentation](https://developers.trello.com/reference#power-ups-intro) for Trello Power-Ups
-- Re-architected Trello's [custom fields](https://blog.trello.com/trello-custom-fields-with-mobile-more-fields-api0) into the core API and migrated millions of custom fields records to new schemas and collections without downtime
+- Re-architected Trello's [custom fields](https://blog.trello.com/trello-custom-fields-with-mobile-more-fields-api0) into the core API and migrated tens of millions of custom fields records to new schemas and collections without downtime
 - Created an [embeddable Trello card](https://developers.trello.com/docs/cards), used on Dropbox Paper, Confluence, Zendesk, and across the web
 - Produced instructional YouTube [videos](https://www.youtube.com/channel/UCXOGrsPzCmYJIpGUytP5ntw/videos)
 - Responsible for maintaining and improving Trello's Power-Up interface, in addition to all first-party Power-Ups
@@ -31,6 +31,8 @@
 
 **Trello - July 2015 to February 2017**
 
+- Built Trello's platform team as its founding member
+- Drove Trello Power-Up ecosystem growth from 0 to many hundreds of thousands
 - Created numerous Power-Ups, such as Salesforce, Evernote, Box, for the launch of Business Class 3.0
 - Created the Custom Fields & Card Repeater Power-Ups in addition to helping third parties build and launch Power-Ups on Trello's Platform
 - Responsible for maintaining and improving Trello's Power-Up interface, in addition to all first-party Power-Ups
