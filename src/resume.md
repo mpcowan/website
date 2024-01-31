@@ -13,6 +13,7 @@
 **Atlassian - June 2022 to April 2023**
 
 - As Trello's first group level architect I worked with engineering leadership to define the role
+- Accelerated decision making by mediating discussions with stakeholders, offering advice, and empowering those closest to the problem to make the final call
 - Worked across a wide array of teams to get Trello integrated into the new Atlassian Together subscription bundle
 
 ### Principal Engineer, Trello
