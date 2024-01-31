@@ -27,6 +27,7 @@
 - Created an [embeddable Trello card](https://developers.trello.com/docs/cards), used on Dropbox Paper, Confluence, Zendesk, and across the web
 - Produced instructional YouTube [videos](https://www.youtube.com/channel/UCXOGrsPzCmYJIpGUytP5ntw/videos)
 - Responsible for maintaining and improving Trello's Power-Up interface, in addition to all first-party Power-Ups
+- Performed screening and technical interviews for candidates across levels from intern to principal
 
 ### Member of Technical Staff
 
