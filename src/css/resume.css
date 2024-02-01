@@ -1,9 +1,9 @@
 body {
-  background: #F4F5F7;
+  background: #f4f5f7;
 }
 
 .markdown-body {
-  background: white;
+  background: #fff;
   box-shadow: 0px 2px 8px 0px #797979;
   box-sizing: border-box;
   margin: 0 auto;
@@ -15,5 +15,16 @@ body {
 @media (max-width: 767px) {
   .markdown-body {
     padding: 15px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #253858;
+  }
+
+  .markdown-body {
+    background: #1d2125;
+    box-shadow: 0px 2px 8px 0px #000000;
   }
 }
