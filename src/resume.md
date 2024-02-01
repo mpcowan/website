@@ -84,11 +84,6 @@
 
 - Awards: Valedictorian, Technology Award, Rensselaer Medal for Excellence in Math and Science, Award for exceptional interest and achievement in science by the Science Teachers Association of New York State
 
-## Languages & Technologies
-
-- Javascript / ECMAScript
-- NodeJS, mongoDB, redis, react
-
 ## Hobbies
 
 - 🗜️ Woodworking, 🏕️ hiking, 📷 photography
