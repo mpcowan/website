@@ -9,7 +9,7 @@
     "dev": "node renderResume.js && parcel src/index.html"
   },
   "dependencies": {
-    "github-markdown-css": "^5.2.0"
+    "github-markdown-css": "^5.5.1"
   },
   "devDependencies": {
     "marked": "^7.0.3",
