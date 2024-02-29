@@ -13,6 +13,6 @@
   },
   "devDependencies": {
     "marked": "^7.0.3",
-    "parcel": "^2.9.3"
+    "parcel": "^2.12.0"
   }
 }
